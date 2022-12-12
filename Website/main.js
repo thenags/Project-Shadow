@@ -14,14 +14,6 @@ import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/fir
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyCW-xXgbVvsRSNgPPlCsBv19g-tltwhdAE",
-    authDomain: "schooltracking-40411.firebaseapp.com",
-    databaseURL: "https://schooltracking-40411-default-rtdb.firebaseio.com",
-    projectId: "schooltracking-40411",
-    storageBucket: "schooltracking-40411.appspot.com",
-    messagingSenderId: "857799116203",
-    appId: "1:857799116203:web:afa76806c021dc2a73beee",
-    measurementId: "G-QTSMFZLYEQ"
   };
 
 // Initialize Firebase
