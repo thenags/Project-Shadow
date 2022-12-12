@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/thenags/Project-Shadow">
-    <img src="images/logo.png" alt="Logo" width="25%" height="25%">
+    <img src="images/logo.png" alt="Logo" width="40%" height="40%">
   </a>
   <p align="center">
     Custom Wireless Student Safety Tracker for Schools
