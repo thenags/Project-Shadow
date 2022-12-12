@@ -90,7 +90,7 @@ root = Tk()
 root.geometry("970x750")
   
 # Add image file
-bg = PhotoImage(file = "gchs.png")
+bg = PhotoImage(file = "YOURIMAGEHERE.png")
   
 # Create Canvas
 canvas = Canvas( root, width = 970,
