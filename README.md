@@ -62,6 +62,10 @@ Software installs:
   ```
   sudo apt-get install python3-tk
   ```
+Arduino Installs:
+* FirebaseESP32
+* WiFi
+
 
 ### Installation
 
@@ -72,6 +76,7 @@ Device:
 - For student:
   - Add firebase credentials to Arduino program
   - Add WiFi credentials
+  - Add student ID
   - Upload to device
 - For WAP:
   - Upload to device
