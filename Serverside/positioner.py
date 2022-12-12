@@ -70,15 +70,6 @@ def rssiToDist(rssi):
    # print((10 ^ ((-67 - (rssi))/10 * 3))/1000)
     #return (10 ^ int((meterRSSI - float(rssi))/10 * environmentalFactor)) * meterScale
 #ser = serial.Serial('/dev/tty.usbmodem14201')
-# END RSSI TO DISTANCE CODE
-
-# Fetch the service account key JSON file contents
-#cred = credentials.Certificate('schooltracking-40411-firebase-adminsdk-9hzh4-80588df601.json')
-
-# Initialize the app with a service account, granting admin privileges
-#firebase_admin.initialize_app(cred, {
-#    'databaseURL': 'https://schooltracking-40411-default-rtdb.firebaseio.com'
-#})
 
 # As an admin, the app has access to read and write all data, regradless of Security Rules
 #waps = db.reference('waps')
