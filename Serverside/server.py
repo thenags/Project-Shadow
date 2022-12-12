@@ -5,11 +5,11 @@ import datetime
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import db
-cred = credentials.Certificate('schooltracking-40411-firebase-adminsdk-9hzh4-80588df601.json')
+cred = credentials.Certificate('')
 #TO-DO - Instead of writing to the database for each student, save the student data in a variable and write to it for each student, then upload the overall data in the end
 # Initialize the app with a service account, granting admin privileges
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://schooltracking-40411-default-rtdb.firebaseio.com'
+    'databaseURL': ''
 })
 
 def convertToString(bssids, rssis):
